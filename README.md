@@ -19,13 +19,13 @@ Manage your daily to-do tasks with priorities, filtering, undo, and persistent J
 ## Project Structure
 
 dashboard/
-├── dashboard.py # Main interface
-├── todo.py # To-Do module with full features
-├── goals.py # (Placeholder for future goals module)
-├── cplogs.py # (Placeholder for CP tracking module)
-├── tasks.json # Stores task data
-├── goals.txt # (Optional file for goals)
-├── cp.txt # (Optional file for CP logs)
+├── dashboard.py 
+├── todo.py 
+├── goals.py 
+├── cplogs.py 
+├── tasks.json 
+├── goals.txt
+├── cp.txt
 └── README.md
 
 
