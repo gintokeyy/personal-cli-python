@@ -19,6 +19,7 @@ Manage your daily to-do tasks with priorities, filtering, undo, and persistent J
 ## Project Structure
 
 ```
+
 dashboard/
 ├── dashboard.py          # Main interface
 ├── todo.py               # To-Do module with full features
