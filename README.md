@@ -1,8 +1,6 @@
 # Personal CLI Dashboard
 
 A simple terminal-based productivity dashboard built in Python.  
-Manage your daily to-do tasks with priorities, filtering, undo, and persistent JSON storage.
-
 ---
 
 ## Features
