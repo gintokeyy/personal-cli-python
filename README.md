@@ -1,39 +1,40 @@
-Personal CLI Dashboard
+# Personal CLI Dashboard
 
-A terminal-based productivity tool to act as a personal dashboard
+A simple terminal-based productivity dashboard built in Python.  
+Manage your daily to-do tasks with priorities, filtering, undo, and persistent JSON storage.
 
-To-Do List Manager
+---
 
-    Add, view, and remove tasks
+## Features
 
-    Priority levels: High, Medium, Low
+- Add new tasks with timestamps  
+- View all tasks sorted by priority  
+- Remove tasks with undo support  
+- Filter tasks by priority (High, Medium, Low)  
+- Persistent data storage using `tasks.json`  
+- CLI-based user-friendly menu navigation  
 
-    Auto-generated timestamps on task creation
+---
 
-    View tasks sorted by priority
-
-    Filter tasks by priority
-
-    Undo last removed task
-
-    Persistent storage using json
-
-Project Structure
+## Project Structure
 
 dashboard/
-├── dashboard.py          
-├── todo.py                
-├── goals.py              
-├── cplogs.py                  
-├── tasks.json  
-├── goals.txt
-├── cp.txt          
-└── README.md              
+├── dashboard.py # Main interface
+├── todo.py # To-Do module with full features
+├── goals.py # (Placeholder for future goals module)
+├── cplogs.py # (Placeholder for CP tracking module)
+├── tasks.json # Stores task data
+├── goals.txt # (Optional file for goals)
+├── cp.txt # (Optional file for CP logs)
+└── README.md
 
-How to Run
 
-Run the dashboard:
+---
 
-    python dashboard.py
+## How to Run
 
-    Navigate using the CLI menus to manage your tasks.
+- Make sure you're in the `dashboard/` directory  
+- Run the dashboard:
+
+```bash
+python dashboard.py
